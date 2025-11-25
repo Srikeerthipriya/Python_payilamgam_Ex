@@ -77,7 +77,7 @@ Scripting language -- Execution -- Interpreted (at runtime)
                      -- Performance -- Can be slower due to interpretation 
                      -- Error Handling -- Error during execution
 
-#### Day 4 (22/11/25)
+#### Day 3 (22/11/25)
 Conditional Statements:
 if elseif else
 for in range
