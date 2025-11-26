@@ -12,9 +12,9 @@
 #else:
 #   print ("fail")
 
-
-def evaluate_mark():
-    m = int(input ("enter your score :"))
+m = int(input ("enter your score :"))
+def evaluate_mark(m):
+   
 
     # checking pass or fail
     if ( m >= 36 ):
@@ -32,4 +32,4 @@ def evaluate_mark():
     else:
         print ("Grade: C")
 
-result = evaluate_mark()
+result = evaluate_mark(m)
