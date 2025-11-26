@@ -12,6 +12,7 @@
 #else:
 #   print ("fail")
 
+# evaluate the mark 
 m = int(input ("enter your score :"))
 def evaluate_mark(m):
    
@@ -33,3 +34,25 @@ def evaluate_mark(m):
         print ("Grade: C")
 
 result = evaluate_mark(m)
+
+# checking the day on the week 
+
+day = int(input("enter day of the week:"))
+
+def day_of_week(day):
+    if (day == 1):
+        print("Monday")
+    elif (day == 2):
+        print("Tuesday")
+    elif (day == 3):
+        print("Wednesday")
+    elif (day == 4):
+        print("Thursday")
+    elif (day == 5):
+        print("Friday")
+    elif (day == 6):
+        print("Saturday")
+    else:
+        print("Sunday")
+
+result =day_of_week(day)
