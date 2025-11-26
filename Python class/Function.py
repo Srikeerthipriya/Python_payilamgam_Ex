@@ -89,7 +89,8 @@ def is_hot(temp):
 result = is_hot(45)
 print("Is cold:", result)
 
-## logical Operators 
+## logical Operators we can't use the ! symbol for logical to check it is true or flase
+#  but we can use for compare 
 
 # and
 
