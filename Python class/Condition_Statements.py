@@ -30,8 +30,10 @@ def evaluate_mark(m):
         print ("Grade: A")
     elif ( m > 60 ):
         print ("Grade: B")
-    else:
+    elif ( m <= 60 ):
         print ("Grade: C")
+    else :
+        print ("Grade: D")
 
 result = evaluate_mark(m)
 
