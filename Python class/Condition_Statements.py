@@ -58,3 +58,8 @@ def day_of_week(day):
         print("Sunday")
 
 result =day_of_week(day)
+
+# year  or leap year
+# bikes in my budget
+# admission for my score 
+# calculate intrest for my age 
