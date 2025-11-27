@@ -30,10 +30,10 @@ def evaluate_mark(m):
         print ("Grade: A")
     elif ( m > 60 ):
         print ("Grade: B")
-    elif ( m <= 60 ):
+    elif ( m > 50 ):
         print ("Grade: C")
-    else :
-        print ("Grade: D")
+    elif ( m < 36) :
+        print ("Grade: F")
 
 result = evaluate_mark(m)
 
@@ -54,7 +54,7 @@ def day_of_week(day):
         print("Friday")
     elif (day == 6):
         print("Saturday")
-    else:
+    elif (day == 7):
         print("Sunday")
 
 result =day_of_week(day)
