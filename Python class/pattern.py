@@ -24,11 +24,11 @@ while i <= row:
 row = int(input("Enter number of decrease rows: "))
 
 i = row
-stars = 1
+#stars = 1
 
 while i > 0:
     print("*" * i)
-    stars =stars - 1
+    #stars =stars - 1
     i =i - 1
 
 

@@ -22,3 +22,4 @@ num=int(num)
 while (i < num):
       i= i+1 # i+=1
       print (num)
+
