@@ -53,16 +53,18 @@ print(t)
 
 # strip,lstrip,rstrip
 # strip -- remove the empty spaces present on both start & end or left & right 
-# user_name = input("Enter Your Name: ")
-# print(len(user_name)) 
+user_name = input("Enter Your Name: ")
+print(len(user_name)) 
 
-# s=print(user_name.strip()) 
-# print(len(s)) 
+new_name = user_name.strip("i")
+#s=print(user_name.strip()) 
+print(len(new_name))
+print(new_name)   
 
-# lstrip=print(user_name.lstrip()) ## remove the empty spaces present on left side
+# lstrip=(user_name.lstrip()) ## remove the empty spaces present on left side
 # print(len(lstrip)) 
 
-# rstrip=print(user_name.rstrip()) ## remove the empty spaces present on right side
+# rstrip=(user_name.rstrip()) ## remove the empty spaces present on right side
 # print(len(rstrip))   
 
 #  split,rsplit ,splitlines  
