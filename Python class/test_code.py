@@ -7,3 +7,4 @@ print(len(new_name))
 print(new_name)   
 
 #print(len(lstrip)) 
+
