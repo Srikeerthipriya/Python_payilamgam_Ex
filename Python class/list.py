@@ -1,4 +1,4 @@
-#   lists -- collection of data elements
+#   lists -- Oredered collection with out any limitation --of data elements
 
 # int, float, string, boolean -> primitive data types
 
