@@ -1,6 +1,6 @@
 
-# Function 
-# def Function_name:
+# Function -- name the group of instruction to perform specific task 
+# def Function_name(parameters):
 #    Expression/statement
 # call() -- call the function 
 
@@ -20,3 +20,4 @@ read_write("age")
 read_write("phone no")
 read_write("degree")
 read_write("salary_expection")
+

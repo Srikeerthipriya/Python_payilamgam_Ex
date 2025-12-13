@@ -26,3 +26,10 @@ After local -- pushing -- Github
 Notepad file save as "filename.md"
 -- md -- markdowm language 
 
+commit formate 
+
+feature(login): 1D - forget password
+bug/fix - id - latency fix
+chore(version) - version update
+release - 1.2.3 version 
+
