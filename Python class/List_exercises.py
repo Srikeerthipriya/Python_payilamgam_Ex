@@ -33,6 +33,7 @@ for i in marks:
     if (i>90):
         # adding all the score which is greater than 90 in grade_A list
         Grade_A.append(i)
+        print(Grade_A)
 
     elif (i>80):
         Grade_B.append(i)
@@ -80,10 +81,34 @@ print(reverse_no)
 
 #5) Given numbers, rotate them in place N times [1, 2, 3, 4, 5] -> [4, 5, 1, 2, 3]
 
-N = [1,2,3,4,5]
+# not using built in function 
 
+# 2 rotatation 
+Num = [1,2,3,4,5]
 
+Rotate = 2
 
+for i in range(Rotate):
+   
+    Li = len(Num) - 1
+    z = Num[Li]
+
+    for x in range(Li,0,-1):
+        
+        Num[x] = Num[x-1]
+    
+    Num[0] = z
+
+print(Num)
+
+# using in built function 
+
+for i in range(Rotate):
+
+    x = Num.pop()
+    Num.insert(0,x)
+
+print(Num)
 
 
 #4) Given numbers, double them in place [1, 2, 3, 4, 5] -> [2, 4, 6, 8, 10]
