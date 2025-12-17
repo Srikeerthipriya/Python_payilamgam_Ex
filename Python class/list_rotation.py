@@ -1,6 +1,6 @@
 num = [1,2,3,4,5]
 
-# 1) 1 rotation with out using in bluit function 
+# 1.1) 1 rotation with out using in bluit function 
 
 rotate = 1 # no of tmes to rotate 
 
@@ -18,7 +18,7 @@ for i in range(rotate): # loop end till the no rotation
 print("1st rotatation:",num)
 
 
-# 1) 1 rotation with using bluit in function 
+# 1.2) 1 rotation with using bluit in function 
 
 num = [1,2,3,4,5]
 rotate = 1 
@@ -30,7 +30,7 @@ for i in range(rotate):
 print("1st rotate using bluitin function:",num)
 
 
-# 2) 2 rotation without using bluit in function 
+# 2.1) 2 rotation without using bluit in function 
 
 num2 = [1,2,3,4,5]
 rotate = 2
@@ -45,7 +45,7 @@ for i in range(rotate):
 
 print("2nd rotation:",num2)
 
-# 2) 2 rotation using bluit in function 
+# 2.2) 2 rotation using bluit in function 
 num2 = [1,2,3,4,5]
 rotate = 2
 for i in range(rotate):
@@ -55,7 +55,18 @@ for i in range(rotate):
 
 print("2nd rotation using bluit in function:",num2)
 
-# 3) 3 rotation using bluit in function 
+
+# 2.3) using slicing
+n = [1,2,3,4,5]
+
+# for 2 rotation clock wise slicing
+
+a = n[3:]
+b = n[0:3]
+
+print("clock wise 2rotate using slicing",a+b)
+
+# 3.1) 3 rotation using bluit in function 
 
 num3 = [1,2,3,4,5]
 rotate = 3
@@ -70,7 +81,7 @@ for i in range(rotate):
 
 print("3nd rotation:",num3)
 
-# 2) 3 rotation using bluit in function 
+# 3.2) 3 rotation using bluit in function 
 
 num3 = [1,2,3,4,5]
 rotate = 3
