@@ -36,13 +36,15 @@ print("multiple of even no:",mul)
 odds=[]
 evens=[]
 
-# for i in num:
-#      if i % 2 !=0:
-#          odds.append[i]
-#          print("odd number:",odds)
-#      elif i % 2 ==0:
-#          #even.append[i]
-#          print("even no:",evens)
+for i in num:
+     if i % 2 !=0:
+         odds.append[i]
+         
+     elif i % 2 ==0:
+         even.append[i]
+
+print("odd number:",odds)
+print("even no:",evens)
 
 #4) provide the multiple of 3 for given list 
 
