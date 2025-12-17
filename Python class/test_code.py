@@ -1,10 +1,12 @@
-user_name = input("Enter Your Name: ")
-print(len(user_name)) 
+num2 = [1,2,3,4,5]
+rotate = 2
+for i in range(rotate):
 
-new_name = user_name.strip("i")
-#s=print(user_name.strip()) 
-print(len(new_name))
-print(new_name)   
+    li=len(num2)-1
+    z=num2[li]
 
-#print(len(lstrip)) 
+    for x in range(li,0,-1):
+        num2[x]=num2[x-1]
+    num2[0]=z
 
+print("2nd rotation:",num2)
