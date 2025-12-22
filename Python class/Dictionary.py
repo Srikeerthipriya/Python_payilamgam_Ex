@@ -1,7 +1,9 @@
 # Dictionary - { }
-# mutuable 
-# get,update
 # dic = {"key": value}
+# mutuable 
+# unique kyes 
+# methods - get,update
+
 
 
 
