@@ -21,6 +21,7 @@
 
 
 # Tuple -- immutable
+# fastern than in list
 # no edit/modify 
 # ordered collection 
 
