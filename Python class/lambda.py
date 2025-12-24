@@ -13,3 +13,5 @@ e = filter(n,lambda x:x%2==0) # using lambda fun we are checkimg the condtion fo
 print("even_num",e)
 o = filter(n,lambda y:y%2!=0) # using lambda fun we are checkimg the condtion for odd no 
 print("odd_num",o)
+
+
