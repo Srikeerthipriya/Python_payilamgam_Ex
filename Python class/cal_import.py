@@ -8,4 +8,29 @@ from calculator import add
 # package -- folder name & module-(filename)
 
 x=add(20,80)
-print(x)
+print("add:",x)
+
+from calculator import sub 
+
+y = sub(100,20)
+print("sub:",y)
+
+from calculator import mult 
+
+y = mult(100,20)
+print("mult:",y)
+
+from calculator import div 
+
+y = div(100,20)
+print("div:",y)
+
+from calculator import power 
+
+y = power(20,2)
+print("power:",y)
+
+
+
+
+
