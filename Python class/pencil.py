@@ -22,7 +22,8 @@ print("revenue of the pencil:",r)
 print("remaining quantity:", balance_Qty(Quantity))
 
 ## Using global
-# globals() is a built-in function that returns a dictionary of all global variables
+# globals() is a built-in function that returns
+#  a dictionary of all global variables
 # Quantity = 100
 # price = 10
 # sold = 0
