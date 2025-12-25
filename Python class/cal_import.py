@@ -30,6 +30,11 @@ from calculator import power
 y = power(20,2)
 print("power:",y)
 
+from calculator import sell,output
+
+x = sell(10)
+output("sell",x)
+
 
 
 
