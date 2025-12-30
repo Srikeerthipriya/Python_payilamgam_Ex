@@ -1,0 +1,9 @@
+print =("no of pen sold:",x)
+
+print("no of pencil :",action,units)
+
+
+no of units: <function pen_sell at 0x000001E512BA37F0> 5 ## here it is fun_name i need to give in string the name 
+to get the action name 
+
+no of units 
