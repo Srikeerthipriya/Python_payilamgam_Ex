@@ -25,6 +25,8 @@ print(type(pen))
 # no of pen = 5 & no of pencil = 2 
 
 
+
+
 def ouput(action,units):
     global quantity,sold
     print("no of units:",action,units)
