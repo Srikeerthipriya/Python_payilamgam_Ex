@@ -7,16 +7,18 @@ pencil = (100,5,0)
 
 def op_pen(action,units):
     global pen
-    print("no of units:",action,units)
-    print("quant_after_sold:",pen[0])
-    print("Total of sold:",pen[2])
-    print("___")
+    product = pen
+    output(action,units,product)
 
 def op_pencil(action,units):
     global pencil
+    product = pencil
+    output(action, units, product)
+
+def output(action, units, product):
     print("no of units:",action,units)
-    print("quant_after_sold:",pencil[0])
-    print("Total of sold:",pencil[2])
+    print("quant_after_sold:",product[0])
+    print("Total of sold:",product[2])
     print("___")
 
 def pen_sell(no_of_pen):
