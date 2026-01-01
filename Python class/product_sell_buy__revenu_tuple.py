@@ -55,11 +55,12 @@ def revenu():
  
     pen_revn = pen[2] * pen[1]
     pencil_revn = pencil[2] * pencil[1]
-    return( pen_revn + pencil_revn)
+    print( "prod_revenu_sells:",pen_revn + pencil_revn)
+    # return (pen_revn + pencil_revun)
+revenu()
 
-prod_revenu_sells = revenu()
-
-print("prod_revenu_sells:",prod_revenu_sells)
+# prod_revenu_sells = revenu()
+# print("prod_revenu_sells:",prod_revenu_sells)
 
     
 
