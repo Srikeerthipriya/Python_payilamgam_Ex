@@ -49,13 +49,13 @@ def output(action, units, product):
 # op_pencil("pencil_sell:",y)
 
 def product_sell(product,no_of_units):
-    qty,price,sold = product
+    qty,price,sold = product # unpacking
     qty -=no_of_units
     sold +=no_of_units
     product = (qty,price,sold)
     return product,no_of_units
 
-pen,x = product_sell(pen,5)
+pen,x = product_sell(pen,5) 
 
 output("pen_sell:",x,pen)
 
