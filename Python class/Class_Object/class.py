@@ -1,4 +1,4 @@
-class employee: # declaring the class 
+class Employee: # declaring the class 
     
     def __init__(self,first_name,last_name,salary):
         self.first = first_name  ## first 
@@ -14,13 +14,13 @@ class employee: # declaring the class
 
 
 # object / instance of employee -- e_one 
-e_one= employee ("Keerthi","Shankar",50000) # here only we are creating the class employee 
+e_one= Employee ("Keerthi","Shankar",50000) # here only we are creating the class employee 
 # print(e_one.first,e_one.last) ## first the name should be name 
 e_one.name() #we no need to pass the parameter it will call automaticatlly
 e_one.increment(10000)
 
 
-e_two = employee("Nikshi","P",60000)
+e_two = Employee("Nikshi","P",60000)
 #print(e_two.first,e_two.last)
 e_two.name()
 e_two.increment(10000)
